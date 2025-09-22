@@ -1,0 +1,9 @@
+app-root {
+    width: 95vw;
+    height: 95vh;
+    display: grid; 
+    grid-template-columns: 25fr 75fr;
+}
+
+html, body { height: 100%; }
+body { margin: 0; }

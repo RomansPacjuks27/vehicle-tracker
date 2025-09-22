@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="image">
+        <img *ngIf="imageLoaded" src="{{ imageSrc }}" width="60" height="60" 
+            (error)="onImageLoadFail()"/>
+        <mat-icon *ngIf="!imageLoaded" aria-hidden="false" class="mat-icon-size" fontIcon="directions_car"></mat-icon>
+    </div>
+    <div class="text">
+        <div class="name">{{ vehicleDescription }}</div>
+        <div>
+            {{ vehicleAddress }}
+        </div>
+    </div>
+</div>

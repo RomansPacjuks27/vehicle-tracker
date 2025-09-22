@@ -1,0 +1,17 @@
+#section {
+    margin: 5px; 
+    height: 100%;
+    align-content: center; 
+}
+
+#map {
+  display: flex;
+  align-content: center; 
+  justify-content: center;
+  align-items: center; 
+  justify-self: center;
+  height: 95%;      
+  width: 95%;
+  border-radius: 10px;
+  z-index: 1;
+}

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    column-gap: 5px;
+}
+
+.image {
+    height: auto;
+}
+
+.text {
+    width: 200px;
+    height: auto;
+}
+
+.name {
+    margin: 0;
+    font-weight: 800;
+}
+
+.mat-icon-size {
+  width: 60px;
+  height: 60px;
+  transform: scale(2.5);
+  transform-origin: top left;
+}
